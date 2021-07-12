@@ -1,8 +1,8 @@
 # Election_Analysis
 
-## Resources
--Data source: election_results.csv
--Software: Python 3.8.8, Visual Studio Code, 1.57
+### Resources
+- Data source: election_results.csv
+- Software: Python 3.8.8, Visual Studio Code, 1.57
 
 ## 1. Overview of the Election Audit
 The purpose of this election audit is for supporting the Board of Elections, this project computes an algorithm able to identify wining candidates, provide counties turnout break down and record the results on an audit file without manual intervention based on an election file. 
@@ -16,24 +16,24 @@ In this particular case for the Colorado elections, the analysis shows that:
 -There were "369,711" votes cast in the election.
 
 -The counties turnouts were:
-  -**Jefferson** "10.5%" of the vote and "38,855" number of votes.
-  -**Denver** "82.8%" of the vote and "306,055" number of votes.
-  -**Arapahoe** "6.7%" of the vote and "24,801" number of votes.
+  - **Jefferson** "10.5%" of the vote and "38,855" number of votes.
+  - **Denver** "82.8%" of the vote and "306,055" number of votes.
+  - **Arapahoe** "6.7%" of the vote and "24,801" number of votes.
 
 -The largest County Turnout was: Denver
   
 -The candidates were:
-  -Charles Casper Stockham
-  -Diana DeGette 
-  -Raymon Anthony Doane
+  - Charles Casper Stockham
+  - Diana DeGette 
+  - Raymon Anthony Doane
 
 -The candidate results were:
-  -**Charles Casper Stockham** received "23.0%" of the vote and "85,213" number of votes.
-  -**Diana DeGette** received "73.8%" of the vote and "272,892" number of votes.
-  -**Raymon Anthony** Doane received "3.1%" of the vote and "11,606" number of votes.
+  - **Charles Casper Stockham** received "23.0%" of the vote and "85,213" number of votes.
+  - **Diana DeGette** received "73.8%" of the vote and "272,892" number of votes.
+  - **Raymon Anthony** Doane received "3.1%" of the vote and "11,606" number of votes.
 
 -The winner of the election was:
-  -**Diana DeGette**, who received **"73.8%"** of the vote and **"272,892"** number of votes.
+  - **Diana DeGette**, who received **"73.8%"** of the vote and **"272,892"** number of votes.
 
 Below the results summary written on the Audit file and shown on the terminal screen:
 
@@ -96,7 +96,6 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 ```
 
 i.e assuming that this script runs in a server, the file name can be entered rather than hardcoding the path
-
 
 ```
 filename=input("Please provide the election file name for running the audit")
